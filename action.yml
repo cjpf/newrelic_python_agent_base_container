@@ -1,0 +1,8 @@
+name: 'python_agent_base_container'
+description: 'Build a container with newrelic agent for python installed'
+inputs:
+outputs:
+runs:
+  using: 'docker'
+  image: 'Containerfile'
+  args:
